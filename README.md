@@ -1,6 +1,4 @@
 
-
-
 <h1 align="center">Course: Convex Optimization </h1>
 <p align="center"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png" width="60%"></a></p>
 
