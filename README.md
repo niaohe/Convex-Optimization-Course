@@ -1,6 +1,6 @@
 
 <h1 align="center">Course: Convex Optimization </h1>
-<p align="center"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png" width="60%"></a></p>
+<p align="center"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png" width="20%"></a></p>
 
 ## Course Information
 Instructor: [Niao He](http://people.inf.ethz.ch/niaohe/index.html)
