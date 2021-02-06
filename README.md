@@ -1,20 +1,17 @@
 
-<p align="center", style="height: 80%"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png"></a></p>
+
 
 <h1 align="center">Course: Convex Optimization </h1>
+<p align="center"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png" width="60%"></a></p>
 
 ## Course Information
 Instructor: [Niao He](http://people.inf.ethz.ch/niaohe/index.html)
 
 ### Course Description
 > This course is focused on learning to recognize, understand,
-analyze, and solve unconstrained and constrained convex optimization problems arising in engineering. The course shall focus on the fundamental convexity theory and the algorithmic approaches for nondifferentiable convex problems. It shall start with the theory of convex sets and convex functions, and their properties. The exposure to this theory is tailored to the level necessary for understanding the crucial aspects of constrained convex optimization problems,
-including existence of solutions, primal-dual properties, and zero duality gap
-conditions. All of these aspects will come to play an important role in the
-subsequent study of the fundamental and the state-of-art algorithmic approaches
-for nondifferentiable convex problems, and in the analysis of the quality of the algorithmic solutions. The course shall keep strong emphasis on practical applications, by providing numerous examples of convex optimization problems such as least-squares, linear and quadratic optimization, semidefinite programming, minimax problems, and some convex problems with special structures. The application areas include machine learning, image/signal processing, financial engineering, operations management and others. 
->
-> *Courtesy warning*: The course is intended for students who wish to gain an in-depth understanding of the convex analysis, modern disciplined convex programming, and hence places emphasis on theory and rigorous proofs. Students looking for introductory knowledge and/or more practical experience with optimization should consider instead [ECE 490 (Introduction to Optimization)](https://sites.google.com/site/ece490spring2017/). Students looking for advanced topics in large-scale optimization should consider IE [598NH (Big Data Optimization)](http://niaohe.ise.illinois.edu/IE598_2016/). Students looking for more specific topics in optimization applications are encouraged to check the following courses CS 544 (Optimization in Computer Vision), ECE 580 (Optimization by Vector Space Methods), IE 598 (Optimization for Deep Learning).
+analyze, and solve unconstrained and constrained convex optimization problems arising in engineering. The course shall focus on the fundamental convexity theory and the algorithmic approaches for (nondifferentiable) convex problems. 
+
+<!-- > *Courtesy warning*: The course is intended for students who wish to gain an in-depth understanding of the convex analysis, modern disciplined convex programming, and hence places emphasis on theory and rigorous proofs. Students looking for introductory knowledge and/or more practical experience with optimization should consider instead [ECE 490 (Introduction to Optimization)](https://sites.google.com/site/ece490spring2017/). Students looking for advanced topics in large-scale optimization should consider IE [598NH (Big Data Optimization)](http://niaohe.ise.illinois.edu/IE598_2016/). Students looking for more specific topics in optimization applications are encouraged to check the following courses CS 544 (Optimization in Computer Vision), ECE 580 (Optimization by Vector Space Methods), IE 598 (Optimization for Deep Learning). -->
 
 ### Prerequisite
 Students are expected to have strong knowledge of linear algebra, real analysis, and multivariate calculus.
@@ -32,11 +29,11 @@ Some of the course material is covered in for following books:
 5. Ben-Tal & Nemirovski. [Lectures on Modern Convex Optimization](http://www2.isye.gatech.edu/~nemirovs/Lect_ModConvOpt.pdf), SIAM. 2011
 6. Nesterov. [Introductory Lectures on Convex Optimization: A Basic Course](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.693.855&rep=rep1&type=pdf). Kluwer-Academic. 2003
 
-### Grading Policy
+<!-- ### Grading Policy
 Grades will be based on
 
 - **Homework (60%)**: approximately biweekly on Wednesdays. You are encouraged to discuss homework problems with your fellow students. But your final answers should be based on your own understanding and written in Latex. No late submission is acceptable.
-- **Final Exam or Project (40%)**: Check the final exam schedule here: https://registrar.illinois.edu/spring-2019-non-combined-scheduling-guidelines/ You can opt out of the final exam by completing a course project. The project must be related to optimization, and cannot be your own research with your advisor or your other course projects. You will need to turn in a written report with at least 10 pages. Your grade will be evaluated based on the quality of the project and the report.
+- **Final Exam or Project (40%)**: Check the final exam schedule here: https://registrar.illinois.edu/spring-2019-non-combined-scheduling-guidelines/ You can opt out of the final exam by completing a course project. The project must be related to optimization, and cannot be your own research with your advisor or your other course projects. You will need to turn in a written report with at least 10 pages. Your grade will be evaluated based on the quality of the project and the report. -->
 
 ### Topical Outlines
 
@@ -64,16 +61,16 @@ Grades will be based on
 | 10 | February 25th  |  Solving Convex Programs | Accuracy Measure, Oracles, Complexity; Cutting Plane Methods; Center of Gravity Algorithm | [[Slides](./lecture_slides/IE521-lecture-10-solving-convex-programs.pdf)] |
 | 11 | February 27th  |  Ellipsoid Method and Polynomial Solvability of Convex Programs | Complexity vs Convergence; Center of Gravity; Ellipsoid Method | [[Slides](./lecture_slides/IE521-lecture-11-ellipsoid-method.pdf)] |
 | 12 | March 4th  |  Conic Programming | Generalized Inequality; Conic Programs: LP, SOCP, SDP; Applications: norm minimization, sparse group lasso, robust linear program | [[Slides](./lecture_slides/IE521-lecture-12-conic-programs.pdf)] |
-| 13 | March 6th  |  Conic Duality | Dual Cone (definition, properties, self-dual cones); Conic Duality (strong duality, optimality conditions); SOCP Duality; SDP Duality and Applications | [[Slides](./lecture_slides/IE521-lecture-13-conic-duality.pdf)] |
-| 14 | March 11th  |  SDP Relaxation and Applications | SDP for Eigenvalue Optimization; SDP for Max Cut Problem (GW Theorem and Nesterovs Theorem); SDP for Nonconvex QCQP; SDP for Stability of Dynamical Systems | [[Slides](./lecture_slides/IE521-lecture-14-SDP-relaxation.pdf)] |
-| 15 | March 13th  |  CVX Tutorial | CVX Tutorial; MATLAB Demonstration; ; No Class during Spring Break (March 18th - March 22nd ); ; Midterm Exam is on Wednesday, March 28th;  | [[Slides](./lecture_slides/IE521-lecture-15-CVX-tutorial.pdf)] |
+| 13 | March 6th  |  Conic Duality | Dual Cone; Conic Duality; SOCP Duality; SDP Duality and Applications | [[Slides](./lecture_slides/IE521-lecture-13-conic-duality.pdf)] |
+| 14 | March 11th  |  SDP Relaxation and Applications | SDP for Eigenvalue Optimization; SDP for Max Cut Problem; SDP for Nonconvex QCQP; SDP for Stability of Dynamical Systems | [[Slides](./lecture_slides/IE521-lecture-14-SDP-relaxation.pdf)] |
+| 15 | March 13th  |  CVX Tutorial | CVX Tutorial; MATLAB Demonstration | [[Slides](./lecture_slides/IE521-lecture-15-CVX-tutorial.pdf)] |
 | 16 | April 1st  |  Interior Point Method  Part I | Path Following Scheme; Self-concordant Functions (definition, examples, calculus, geometric properties);  | [[Slides](./lecture_slides/IE521-lecture-16-IPM-self-concordance.pdf)] |
 | 17 | April 5th  |  Interior Point Method  Part II | Classical Newton Method and Analysis; Newton Method for Self-concordant Functions; Damped Newton Method and Global Convergence | [[Slides](./lecture_slides/IE521-lecture-17-IPM-Newton-method.pdf)] |
 | 18 | April 10th  |  Interior Point Method  Part III | Self-concordant Barriers; Restate Path Following Scheme | [[Slides](./lecture_slides/IE521-lecture-18-IPM-path-following-scheme.pdf)] |
 | 19 | April 15th  |  Interior Point Method  Part IV | Self-concordant Barriers for LP, SOCP, SDP; Complexity of Interior Point Method; Primal-Dual Path Following Scheme;  | [[Slides](./lecture_slides/IE521-lecture-19-IPM-conic-programs.pdf)] |
 | 20 | April 17th  |  Subgradient Method | Subgradient Method; Choices of Stepsize; Convergence Analysis;  | [[Slides](./lecture_slides/IE521-lecture-20-subgradient-method.pdf)] |
 | 21 | April 22th  |  Bundle Methods | Kelleys Method; Level Set Method;  | [[Slides](./lecture_slides/IE521-lecture-21-bundle-methods.pdf)] |
-| 22 | April 24th  |  Constrained Subgradient Methods | Problems with Functional Constraints; Constrained Level Method; Lower Bound Complexity | [[Slides](./lecture_slides/IE521-lecture-22-constrained-subgradient-methods.pdf)] |
+| 22 | April 24th  |  Constrained Subgradient Methods | Problems with Functional Constraints; Constrained Level Method | [[Slides](./lecture_slides/IE521-lecture-22-constrained-subgradient-methods.pdf)] |
 | 23 | April 29th | Dual Methods | Augmented Lagrangian; ADMM | [[Slides](./lecture_slides/IE521-lecture-23-dual-methods.pdf)] |
 
 ## License
