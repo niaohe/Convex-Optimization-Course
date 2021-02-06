@@ -1,15 +1,20 @@
 
-<p align="center"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png"></a></p>
+<p align="center", style="height: 80%"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png"></a></p>
 
-<h1 align="center">Course: Convex-Optimization-Course </h1>
+<h1 align="center">Course: Convex Optimization </h1>
 
 ## Course Information
 Instructor: [Niao He](http://people.inf.ethz.ch/niaohe/index.html)
 
 ### Course Description
-> This course is focused on learning to recognize, understand, analyze, and solve unconstrained and constrained convex optimization problems arising in engineering fields. The course shall focus on the fundamental subjects in convexity, duality, and convex optimization algorithms, as a complementary to IE 411 (Optimization of Large Systems), IE 511 (Integer Programming), and IE 510 (Advanced Nonlinear Programming).
+> This course is focused on learning to recognize, understand,
+analyze, and solve unconstrained and constrained convex optimization problems arising in engineering. The course shall focus on the fundamental convexity theory and the algorithmic approaches for nondifferentiable convex problems. It shall start with the theory of convex sets and convex functions, and their properties. The exposure to this theory is tailored to the level necessary for understanding the crucial aspects of constrained convex optimization problems,
+including existence of solutions, primal-dual properties, and zero duality gap
+conditions. All of these aspects will come to play an important role in the
+subsequent study of the fundamental and the state-of-art algorithmic approaches
+for nondifferentiable convex problems, and in the analysis of the quality of the algorithmic solutions. The course shall keep strong emphasis on practical applications, by providing numerous examples of convex optimization problems such as least-squares, linear and quadratic optimization, semidefinite programming, minimax problems, and some convex problems with special structures. The application areas include machine learning, image/signal processing, financial engineering, operations management and others. 
 >
-> *Courtesy warning*: The course is intended for students who wish to gain an in-depth understanding of the convex analysis, modern disciplined convex programming, and hence places emphasis on theory and rigorous proofs.� Students looking for introductory knowledge and/or more practical experience with optimization should consider instead [ECE 490 (Introduction to Optimization)](https://sites.google.com/site/ece490spring2017/). Students looking for advanced topics in large-scale optimization should consider IE [598NH (Big Data Optimization)](http://niaohe.ise.illinois.edu/IE598_2016/). Students looking for more specific topics in optimization applications are encouraged to check the following courses CS 544 (Optimization in Computer Vision), ECE 580 (Optimization by Vector Space Methods), IE 598 (Optimization for Deep Learning).
+> *Courtesy warning*: The course is intended for students who wish to gain an in-depth understanding of the convex analysis, modern disciplined convex programming, and hence places emphasis on theory and rigorous proofs. Students looking for introductory knowledge and/or more practical experience with optimization should consider instead [ECE 490 (Introduction to Optimization)](https://sites.google.com/site/ece490spring2017/). Students looking for advanced topics in large-scale optimization should consider IE [598NH (Big Data Optimization)](http://niaohe.ise.illinois.edu/IE598_2016/). Students looking for more specific topics in optimization applications are encouraged to check the following courses CS 544 (Optimization in Computer Vision), ECE 580 (Optimization by Vector Space Methods), IE 598 (Optimization for Deep Learning).
 
 ### Prerequisite
 Students are expected to have strong knowledge of linear algebra, real analysis, and multivariate calculus.
