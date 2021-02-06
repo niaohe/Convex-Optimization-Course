@@ -1,14 +1,12 @@
 
-<p align="center"><a href="https://lab.github.com/"><img alt="Learning Lab bot" src="https://user-images.githubusercontent.com/16547949/62085817-83232580-b22a-11e9-8693-7c54205b04e5.png"></a></p>
+<p align="center"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png"></a></p>
 
 <h1 align="center">Course: Convex-Optimization-Course </h1>
 
 ## Course Information
 Instructor: [Niao He](http://people.inf.ethz.ch/niaohe/index.html)
 
-Email: niao.he@inf.ethz.ch
-
-## Course Description
+### Course Description
 > This course is focused on learning to recognize, understand, analyze, and solve unconstrained and constrained convex optimization problems arising in engineering fields. The course shall focus on the fundamental subjects in convexity, duality, and convex optimization algorithms, as a complementary to IE 411 (Optimization of Large Systems), IE 511 (Integer Programming), and IE 510 (Advanced Nonlinear Programming).
 >
 > *Courtesy warning*: The course is intended for students who wish to gain an in-depth understanding of the convex analysis, modern disciplined convex programming, and hence places emphasis on theory and rigorous proofs.� Students looking for introductory knowledge and/or more practical experience with optimization should consider instead [ECE 490 (Introduction to Optimization)](https://sites.google.com/site/ece490spring2017/). Students looking for advanced topics in large-scale optimization should consider IE [598NH (Big Data Optimization)](http://niaohe.ise.illinois.edu/IE598_2016/). Students looking for more specific topics in optimization applications are encouraged to check the following courses CS 544 (Optimization in Computer Vision), ECE 580 (Optimization by Vector Space Methods), IE 598 (Optimization for Deep Learning).
@@ -50,27 +48,27 @@ Grades will be based on
 | :-----: | :---: | :-----: | :-------: | :---------: |
 | 0 | January 14th  |  Introduction | Introduction to the Course;  |  |
 | 1 | January 16th  |  Convex Set | Topology Review; Convex Sets (definition, convex/conic/affine hulls, examples, calculus of convex sets); Nice Topological Properties of Convex Sets (interior, closure, relative interior); Carathodory's Representation Theorem | [[Slides](./lecture_slides/IE521-lecture-1-convex-sets.pdf)] |
-| 2 | January 23th  |  Convex Geometry | Radons Theorem; Helleys Theorem and Applications; Separation Theorems | [[Slides](./lecture_slides/IE521-lecture-2-convex-geometry.pdf)][Homework 1.pdf][Homework 1.tex] |
+| 2 | January 23th  |  Convex Geometry | Radons Theorem; Helleys Theorem and Applications; Separation Theorems | [[Slides](./lecture_slides/IE521-lecture-2-convex-geometry.pdf)] |
 | 3 | January 28th  |  Separation Theorems | Separation Hyperplane Theorem; Strong Separation Hyperplane Theorem; Farkas Lemma; Duality of Linear Programming | [[Slides](./lecture_slides/IE521-lecture-3-separation-theorems.pdf)] |
 | 4 | February 4th  |  Convex Functions | Convex Functions (definition, examples, calculus) | [[Slides](./lecture_slides/IE521-lecture-4-convex-functions.pdf)] |
 | 5 | February 6th  |  Convex Functions II | Characterizations of Convex Functions (epigraph, level set, first-order and second-order conditions); Continuity and Local Lipschitz Continuity of Convex Functions; Closed Convex Functions | [[Slides](./lecture_slides/IE521-lecture-5-convex-functions-II.pdf)] |
 | 6 | February 11th  |  Subgradient and Subdifferential | Subgradient (definition, examples, properties); Directional Derivative and Subdifferential Set; Calculus of Subgradient | [[Slides](./lecture_slides/IE521-lecture-6-subgradients.pdf)] |
-| 7 | February 13th  |  Convex Conjugate | Conjugate Function (definition, examples, properties); Conjugate Theory; Minima of Convex Functions | [[Slides](./lecture_slides/IE521-lecture-7-convex-conjuate.pdf)] [Homework 2.pdf][Homework 2.tex] |
+| 7 | February 13th  |  Convex Conjugate | Conjugate Function (definition, examples, properties); Conjugate Theory; Minima of Convex Functions | [[Slides](./lecture_slides/IE521-lecture-7-convex-conjuate.pdf)] |
 | 8 | February 18th  |  Convex Programs and Duality | Convex Programs; Convex Theorem on Alternatives; Lagrange Duality | [[Slides](./lecture_slides/IE521-lecture-8-convex-programs-and-duality.pdf)] |
 | 9 | February 20th  |  Optimality Conditions | KKT Conditions; Saddle Point Perspective; Minimax Theorems | [[Slides](./lecture_slides/IE521-lecture-9-optimality-conditions.pdf)] |
-| 10 | February 25th  |  Solving Convex Programs | Accuracy Measure, Oracles, Complexity; Cutting Plane Methods; Center of Gravity Algorithm | [[Slides](./lecture_slides/IE521-lecture-10-solving-convex-programs.pdf)] [Homework 3.pdf][Homework 3.tex] |
+| 10 | February 25th  |  Solving Convex Programs | Accuracy Measure, Oracles, Complexity; Cutting Plane Methods; Center of Gravity Algorithm | [[Slides](./lecture_slides/IE521-lecture-10-solving-convex-programs.pdf)] |
 | 11 | February 27th  |  Ellipsoid Method and Polynomial Solvability of Convex Programs | Complexity vs Convergence; Center of Gravity; Ellipsoid Method | [[Slides](./lecture_slides/IE521-lecture-11-ellipsoid-method.pdf)] |
 | 12 | March 4th  |  Conic Programming | Generalized Inequality; Conic Programs: LP, SOCP, SDP; Applications: norm minimization, sparse group lasso, robust linear program | [[Slides](./lecture_slides/IE521-lecture-12-conic-programs.pdf)] |
 | 13 | March 6th  |  Conic Duality | Dual Cone (definition, properties, self-dual cones); Conic Duality (strong duality, optimality conditions); SOCP Duality; SDP Duality and Applications | [[Slides](./lecture_slides/IE521-lecture-13-conic-duality.pdf)] |
-| 14 | March 11th  |  SDP Relaxation and Applications | SDP for Eigenvalue Optimization; SDP for Max Cut Problem (GW Theorem and Nesterovs Theorem); SDP for Nonconvex QCQP; SDP for Stability of Dynamical Systems | [[Slides](./lecture_slides/IE521-lecture-14-SDP-relaxation.pdf)] [Homework 4.pdf][Homework 4.tex] |
-| 15 | March 13th  |  CVX Tutorial | CVX Tutorial; MATLAB Demonstration; ; No Class during Spring Break (March 18th - March 22nd ); ; Midterm Exam is on Wednesday, March 28th;  | [[Slides](./lecture_slides/IE521-lecture-15-CVX-tutorial.pdf)] [Code] |
+| 14 | March 11th  |  SDP Relaxation and Applications | SDP for Eigenvalue Optimization; SDP for Max Cut Problem (GW Theorem and Nesterovs Theorem); SDP for Nonconvex QCQP; SDP for Stability of Dynamical Systems | [[Slides](./lecture_slides/IE521-lecture-14-SDP-relaxation.pdf)] |
+| 15 | March 13th  |  CVX Tutorial | CVX Tutorial; MATLAB Demonstration; ; No Class during Spring Break (March 18th - March 22nd ); ; Midterm Exam is on Wednesday, March 28th;  | [[Slides](./lecture_slides/IE521-lecture-15-CVX-tutorial.pdf)] |
 | 16 | April 1st  |  Interior Point Method  Part I | Path Following Scheme; Self-concordant Functions (definition, examples, calculus, geometric properties);  | [[Slides](./lecture_slides/IE521-lecture-16-IPM-self-concordance.pdf)] |
 | 17 | April 5th  |  Interior Point Method  Part II | Classical Newton Method and Analysis; Newton Method for Self-concordant Functions; Damped Newton Method and Global Convergence | [[Slides](./lecture_slides/IE521-lecture-17-IPM-Newton-method.pdf)] |
 | 18 | April 10th  |  Interior Point Method  Part III | Self-concordant Barriers; Restate Path Following Scheme | [[Slides](./lecture_slides/IE521-lecture-18-IPM-path-following-scheme.pdf)] |
-| 19 | April 15th  |  Interior Point Method  Part IV | Self-concordant Barriers for LP, SOCP, SDP; Complexity of Interior Point Method; Primal-Dual Path Following Scheme;  | [[Slides](./lecture_slides/IE521-lecture-19-IPM-conic-programs.pdf)] [Homework 5.pdf][Homework 5.tex][Dataset] |
+| 19 | April 15th  |  Interior Point Method  Part IV | Self-concordant Barriers for LP, SOCP, SDP; Complexity of Interior Point Method; Primal-Dual Path Following Scheme;  | [[Slides](./lecture_slides/IE521-lecture-19-IPM-conic-programs.pdf)] |
 | 20 | April 17th  |  Subgradient Method | Subgradient Method; Choices of Stepsize; Convergence Analysis;  | [[Slides](./lecture_slides/IE521-lecture-20-subgradient-method.pdf)] |
 | 21 | April 22th  |  Bundle Methods | Kelleys Method; Level Set Method;  | [[Slides](./lecture_slides/IE521-lecture-21-bundle-methods.pdf)] |
-| 22 | April 24th  |  Constrained Subgradient Methods | Problems with Functional Constraints; Constrained Level Method; Lower Bound Complexity | [[Slides](./lecture_slides/IE521-lecture-22-constrained-subgradient-methods.pdf)] [Homework 6.pdf][Homework 6.tex] |
+| 22 | April 24th  |  Constrained Subgradient Methods | Problems with Functional Constraints; Constrained Level Method; Lower Bound Complexity | [[Slides](./lecture_slides/IE521-lecture-22-constrained-subgradient-methods.pdf)] |
 | 23 | April 29th | Dual Methods | Augmented Lagrangian; ADMM | [[Slides](./lecture_slides/IE521-lecture-23-dual-methods.pdf)] |
 
 ## License
