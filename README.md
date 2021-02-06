@@ -1,5 +1,5 @@
 
-<p align="center", style="height: 80%"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png"></a></p>
+<p align="center", style="height: 50%"><a href="http://people.inf.ethz.ch/niaohe/teaching.html"><img alt="Convex Optimization" src="./assets/img/ie521.png"></a></p>
 
 <h1 align="center">Course: Convex Optimization </h1>
 
